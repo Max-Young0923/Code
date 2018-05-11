@@ -1,0 +1,5 @@
+C:\Users\xiaogui\Documents\Visual Studio 2010\Projects\xscj\xscj\obj\x86\Debug\xscj.csprojResolveAssemblyReference.cache
+C:\Users\xiaogui\Documents\Visual Studio 2010\Projects\xscj\xscj\obj\x86\Debug\xscj.Form1.resources
+C:\Users\xiaogui\Documents\Visual Studio 2010\Projects\xscj\xscj\obj\x86\Debug\xscj.Properties.Resources.resources
+C:\Users\xiaogui\Documents\Visual Studio 2010\Projects\xscj\xscj\obj\x86\Debug\xscj.csproj.GenerateResource.Cache
+C:\Users\xiaogui\Documents\Visual Studio 2010\Projects\xscj\xscj\bin\Debug\xscj.exe.config
