@@ -1,0 +1,125 @@
+body{
+	background-color: #90C7E3;
+ 	color: #666666; 
+ 	background-image: linear-gradient(to bottom,#FFF, #0FF);
+ 	/*background-image: url(images/logo.png);
+ 	background: url(images/head.gif) no-repeat right bottom, url(images/logo.png);
+    */
+ 	font-family: Arial,Helvetica,sana-serif;
+	}
+header{
+	background-color: #000033;
+	color: #FFFFFF;
+	background-image: url(images/sunset.png);
+	height: 86px;
+	line-height: 400%;
+	text-indent: 1em;
+	border-radius: 15px;
+	}
+nav{
+	background-color: #90C7E3;
+	font-weight: bold;
+	font-size: 2em;
+	border-radius: 15px;
+	float: left;
+	margin-right: 160px;
+}
+nav a{
+	text-decoration: none;
+}
+nav ul{
+	list-style-type: circle;
+}
+a:link{ 
+	color: #F00;
+}
+a:visited{
+	text-decoration: none;
+	color: #eaeaea;
+}
+a:hover{
+	color: #F00;
+}
+h2{
+	color: #3399CC;
+	font-family: Georgia;
+
+	}
+h3{
+	color: #330000;
+	font-family: serif;
+	}
+dt{color: #000033}
+
+h1{
+	margin-top: 0;
+	color: #333333;
+	margin-bottom: 0;
+	font-size: 3em;
+	margin-top: 0;
+	 }
+nav ul{
+	list-style-image: url(images/market.gif);
+}	
+main ul{
+	list-style-type: disc;
+} 
+.ma_div{
+	padding-left: 270px;
+}
+.resort{
+	color: #5C7FA3;
+	font-weight: bold;
+}
+#foot{	
+	font-size: small;
+	font-style: italic;
+	font-family: Georigia, "Times New Roman",sana-serif;
+	}
+#foot1{
+		text-align: center;
+	}
+#contact{font-size: 90%;}
+
+#wrap{
+	height: 210px;
+	background-image: url(images/logo.gif);
+	background-clip: border-box;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-left: 300px;
+	top: 10px;
+}
+#wrapper{
+
+}
+
+
+/*修改双栏确保和旧浏览器向后兼容
+方法：配置CSS块显示*/
+/*配置HTML5支持
+header,main,nav,footer{display: block;}
+#mobile{
+	display: none;
+}
+#desktop{
+	display: inline;
+}*/
+/*编码媒体查询来适配典型的平板设备视口宽度
+@media only screen and (max-width: 64em)｛
+body{
+	margin: 0;
+	background-color:#FFF;
+	}
+	main{margin-left: 0;}
+	nav{
+		float: none;
+		width: auto;
+		text-align: center;
+		padding: 0.5em
+	}
+	nav ul{
+		display: inline;
+		padding: 0.25em,0.75em;
+	}
+｝*/
