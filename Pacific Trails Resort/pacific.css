@@ -64,12 +64,18 @@ nav ul{
 main ul{
 	list-style-type: disc;
 } 
+.biaoti{
+	background-image: url(images/sunset.png);
+}
 .ma_div{
 	padding-left: 270px;
 }
 .resort{
 	color: #5C7FA3;
 	font-weight: bold;
+}
+.packages{
+	padding-left: 170px;
 }
 #foot{	
 	font-size: small;
@@ -90,10 +96,50 @@ main ul{
 	padding-left: 300px;
 	top: 10px;
 }
-#wrapper{
-
+#add{
+	margin-left: 430px;
+}
+#fo{
+	margin-left: 270px;
+}
+table{
+	border: 1px solid #3399CC;
+	margin: auto;
+	width: 80%;
+	border-spacing: 0;
+}
+td,th{
+	padding: 5px;
+	border: 1px solid #3399CC;
+}
+td{
+	text-align: center;
+}
+.des{
+	text-align: left;
+}
+tr:nth-of-type(odd){
+	background-color: #F5FAFC;
+}
+#biao{
+	margin-left: 170px;
+}
+form{
+	display: block;
+	margin-left: 170px;
+}
+label{
+	
+	text-align: right;
+	width: 120px;
+	padding-right: auto;
 }
 
+
+
+/*input[type="submit"]{
+	margin-left: 0;
+}*/
 
 /*修改双栏确保和旧浏览器向后兼容
 方法：配置CSS块显示*/
