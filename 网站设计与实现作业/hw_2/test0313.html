@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html";charset="utf-8">
+<title>第二次作业</title>
+<!--<script type="text/javascript" src="JS.js"></script>-->
+<script type="text/javascript">                                                                                        
+function checkForm()
+{
+	if(confirm("你确认提交这个表单吗？")) return true;
+	else return false;
+}
+
+function isValidAge(s)
+{
+	var i,ch,age;
+	for(i=0;i<s.length;i++)
+	{
+		ch=s.charAt(i);
+	if(ch<"0"||ch>"9")
+	{
+		alert("请输入数字！");
+		return false;		
+	}
+	}
+	age = parseInt(s);
+	if(age<10||age>120)
+	{
+		alert("请输入有效年龄！")
+	}
+	return true;
+}
+function CheckAge()
+{
+	var f;
+	f=document.form1;
+	if(isValidAge(f.age.value))
+	{
+		//alert("年龄输入正确！");
+		return true;
+		}
+	else {
+		f.age.focus();
+		f.age.select();
+	}
+
+}
+
+function isValidSex(c)
+{
+	ch=c.charAt(0);
+	if(ch == '男' || ch == '女')
+	{
+		return true;
+	}
+	else 
+	{	alert("请输入真实性别（男/女）！");
+		return false;
+	}
+}
+
+function CheckSex()
+{
+	var s = document.form1.gender.value;
+	if(isValidSex(s))
+	{	
+		alert("性别输入正确！");
+		return true;
+	}
+	else
+	{
+		str.gender.focus();
+		str.gender.select();
+	}
+}
+	
+</script>
+
+<style type="text/css">
+	
+	span {
+	font-size:10px;
+	color:blue;
+	}
+
+</style>
+</head>
+
+<body>
+
+<form method="post" name="form1" onSubmit="javaScript:return checkForm();">
+
+<div>
+   <table align="center">
+   <tr>
+<td>姓名：</td> 
+<td> <input type="text" name="stuName" value="请输入姓名" required="required" /> <span>(中文姓名)</span> </td>
+</tr>
+<tr>
+<td>性别：</td> 
+<td> <input type="text" name="gender" value="请输入性别" onChange="CheckSex()" required="required" /> <span>(男/女)</span> </td>
+</tr>
+<td>年龄：</td>
+<td> <input type="text" name="age" value="请输入年龄" required="required" onChange="CheckAge()" /> <span>(10-120)</span> </td>
+</tr>
+<tr>
+<td>
+<input type="submit" name="sub" value="提交" onClick="checkForm()">
+</td>
+</tr>
+</table>
+
+</div>
+</form>
+
+</body>
+
+</html>

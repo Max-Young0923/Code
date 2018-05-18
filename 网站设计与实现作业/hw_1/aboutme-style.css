@@ -1,0 +1,36 @@
+a{
+	text-decoration: none
+}a:hover{
+	text-decoration: underline
+}
+h1,h2{
+
+   color:blue;
+   
+}
+.character{
+	font: Arial;
+	color: yellow;
+	 
+}
+.detail{
+	color:red;
+}
+
+.shouzida:first-letter{
+font-size:1.5em;
+
+}
+
+ol{
+	list-style: none;
+	counter-reset: line 4;
+}
+ol > li:before{
+	counter-increment: line -1;
+	content: counter(line)".";
+}
+
+.s1{
+	color: yellow;
+}
